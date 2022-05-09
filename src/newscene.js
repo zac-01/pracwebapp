@@ -6,6 +6,7 @@ function newscene()
     this.setup = function()
     {
     gui = createGui();
+    setupHeaderButtons();   
 
     // Create SliderV.
     // The last two optional arguments define the min and max (minimum and maximum) values.
