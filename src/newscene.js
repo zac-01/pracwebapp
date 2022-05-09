@@ -47,7 +47,7 @@ function newscene()
      
 
         push();
-        showHeader(false);
+        showHeader(true);
 
         textAlign(LEFT);
         fill(0);
